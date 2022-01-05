@@ -1,0 +1,323 @@
+/* Reset  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+
+#navbar{
+    background:rgb(128, 192, 231);
+    overflow: auto;
+}
+
+.container{
+    margin:auto;
+    max-width: 1000px;
+    overflow: auto;
+    padding: 10px 20px;
+}
+
+#navbar h1{
+    float:left;
+    padding: 20px;
+}
+
+ #navbar ul{
+     list-style: none;
+     float: right;
+
+ }
+ #navbar ul li{
+     float: left;
+ }
+ #navbar ul li a{
+     display:block;
+     padding: 20px;
+  
+ }
+ #navbar ul li a:hover{
+     background: rgb(240, 243, 237);
+     color:rgb(207, 22, 59);
+     
+ }
+
+ #show{
+     background: url("../img/hotel2.jfif") no-repeat center center/cover;
+     height: 500px;
+ }
+
+.container{
+    margin:auto;
+    max-width: 1000px;
+    overflow: auto;
+    padding: 20px 20px;
+}
+
+#show .show-content{
+       color:white;
+       text-align: center;
+       padding-top: 150px;
+
+}
+
+#show .show-content h1{
+    font-size: 50px;
+    line-height: 1.9em;
+
+}
+
+#show .show-content p{
+    padding-bottom:25px;
+    line-height: 1.2em;
+    font-size: 20px;
+}
+
+.text-primary{
+    color:rgb(90, 49, 236)
+}
+
+.btn{
+    display: inline-block;
+    font-size:23px;
+  
+     background: rgb(168, 231, 223);
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+ .btn:hover{
+     background: rgb(54, 211, 120);
+     color:rgb(218, 110, 38);
+ }
+
+ #home-info{
+     height: 400px;
+ }
+
+ #home-info .info-img{
+    background: url("../img/hotel6.jpg") no-repeat center center/cover;
+    float:right;
+    width: 50%;
+    min-height: 100%;
+ }
+
+ #home-info .info-content{
+     float: left;
+     width: 50%;
+     min-height: 100%;
+     text-align: center;
+     padding: 60px 30px;
+     overflow: hidden;
+  
+ }
+
+ #home-info .info-content h2{
+     font-size: 30px;
+     padding: 20px;
+ }
+
+ #home-info .info-content p{
+     line-height: 1.3em;
+     text-align: justify;
+     margin-bottom: 20px;
+}
+
+.box{
+    float: left;
+    width:33.3%;
+    padding: 50px;
+    text-align: center;
+}
+
+.box i{
+    margin:10px;
+}
+
+.bg-light{
+    background: cornsilk;
+}
+
+.clr{
+    clear: both;
+  }
+  
+  /*footer*/
+  #footer{
+    text-align: center;
+    background: rgb(149, 216, 233);
+    color: rgb(226, 30, 30);
+    padding: 20px;
+  }
+
+  #about-info .info-left{
+      Float:right;
+      width:50%;
+      min-height:100% ;
+      text-align: center;
+ 
+  }
+
+  #about-info .info-right{
+    Float:left;
+    width:50%;
+    min-height:100% ;
+   
+}
+
+#about-info .info-right img{
+    display:block;
+    margin: auto;
+    width: 80%;
+    border-radius: 40px 0px 40px 0px;
+   
+}
+
+#about-info{
+    padding: 20px 10px;
+}
+#about-info h1{
+    font-size: 33px;
+    line-height: 1.8em;
+
+
+}
+
+#about-info p{
+    /* text-align: justify; */
+    font-size: 17px;
+}
+
+
+#testi{
+    height: 700px;
+    background:url("../shek.png ") no-repeat center center/cover;
+    padding: 80px;;
+
+}
+
+
+#testi .testimonial{
+    padding: 40px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    background: rgb(136, 118, 47);
+    opacity: 0.7;    
+}
+
+
+
+
+#testi .testimonial img{
+    width:100px;
+    float:left;
+    margin-right:30px;
+    border-radius: 25px;
+
+
+}
+#testi  .heading{
+   text-align: center;
+   padding-bottom: 30px;
+   font-size: 30px;
+   color:cyan;
+}
+
+#photo{
+    height:500PX;
+    padding: 50PX;
+
+}
+#photo .perfect{
+    float: left;
+    overflow:auto;
+    background-color:white;
+    min-height: 300px;
+}
+
+.perfect img{
+    float: left;
+    display:block;
+    width:25%;
+    min-height:400px;
+    overflow:auto;
+    padding: 50px 10px;
+  
+}
+.perfect h1{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 20px;
+    color:orange;
+}
+
+.perfect-information img{
+    float: left;
+    display:block;
+    width:25%;
+    border:none;
+    border-radius: 50%;
+    min-height:400px;
+    overflow:auto;
+    padding: 50px 10px;
+    
+}
+
+ 
+ #photo-pot{
+     height: 50px;
+     padding: 10px 40px ;
+    
+    
+
+ }
+ .page{
+    float: left;
+    width:25%;
+    text-align: center;
+    /* padding: 10px; */
+   
+   
+  
+ }
+
+ .bg-green{
+     background-color:cornsilk;
+ }
+ .bg-red{
+    background-color:white;
+}
+
+
+.page h3{
+    line-height: 1.4em;
+font-size: 25px;
+padding: 5px;
+text-align: left;
+text-align: right;
+}
+
+
+
+  .btt{
+      display:inline-block;
+      color:blueviolet;
+      text-decoration: none;
+      margin: 10px;
+      font-size: 20px;
+
+  }
+
+  #ip-footer{
+    text-align: center;
+    background: rgb(243, 244, 247);
+    padding: 25px;
+    margin-top: 226px;
+    color: tomato;
+  }
+
+  .clr{
+      clear:both;
+  }
